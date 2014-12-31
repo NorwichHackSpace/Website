@@ -36,3 +36,36 @@ This is the content of my super blog post.
 
 Git
 =======
+Download: http://git-scm.com/downloads
+Introduction & getting started: http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+Get all website content:
+    git clone https://github.com/NorwichHackSpace/Website.git
+
+This will create a new folder called "Website" in the current working directory
+
+Adding new files:
+Create the file and run the command:
+    git add FILENAME
+
+Editing existing files:
+Open the file make changes and git will keep track of what is different.
+
+What has changed?
+Run:
+    git status
+    or
+    git diff FILENAME
+
+Which will display the changed files.
+
+Once all changes have been made the changes and new files can be sent to github yusing:
+    git commit
+
+
+
+
+
+    
+
+
