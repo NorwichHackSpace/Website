@@ -53,7 +53,7 @@ Open the file make changes and git will keep track of what is different.
 
 What has changed?
 Run:
-    git status
+    git status -a
     or
     git diff FILENAME
 
@@ -64,7 +64,8 @@ Once all changes have been made the changes and new files can be sent to github 
 
 
 
-
+Generating content
+=======
 
     
 
